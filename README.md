@@ -3,7 +3,8 @@
 ## Background
 The Chicago Police Department (CPD) records every traffic crash taking place on its roads in an electronic crash reporting system (E-Crash). Records are added to the data portal when a crash report is finalized or when amendments are made to an existing report in E-Crash.
 We are working with two datasets here which are sourced from CPD’s official website:
-### Dataset 1: Traffic Crashes Data (https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
+### Dataset 1: Traffic Crashes Data
+(https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
 The traffic crash data contains all information about the crash, number of injuries in the crash, weather conditions at the time of crash, etc. Note: Our focus in the dataset is towards analysis crashes which result to injuries, hence we are excluding unfatal crashes out of our analysis.
 
 ### Dataset 2: Traffic Crashes People (https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)

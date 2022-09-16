@@ -5,9 +5,12 @@ The Chicago Police Department (CPD) records every traffic crash taking place on 
 We are working with two datasets here which are sourced from CPD’s official website:
 ### Dataset 1: Traffic Crashes Data
 (https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
+
 The traffic crash data contains all information about the crash, number of injuries in the crash, weather conditions at the time of crash, etc. Note: Our focus in the dataset is towards analysis crashes which result to injuries, hence we are excluding unfatal crashes out of our analysis.
 
-### Dataset 2: Traffic Crashes People (https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
+### Dataset 2: Traffic Crashes People 
+(https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
+
 The dataset records details of the people who were involved in the above traffic crashes we have earlier analysed. The datasets are threaded together through 'Crash_Record_Id' variable which is a unique identifier for each crash incident. Through this dataset we have some attributes about the people, their demographics, license status and all
 
 ## Objective of the Study

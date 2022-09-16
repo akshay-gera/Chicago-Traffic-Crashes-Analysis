@@ -3,10 +3,10 @@
 ## Background
 The Chicago Police Department (CPD) records every traffic crash taking place on its roads in an electronic crash reporting system (E-Crash). Records are added to the data portal when a crash report is finalized or when amendments are made to an existing report in E-Crash.
 We are working with two datasets here which are sourced from CPD’s official website:
-### Dataset 1: Traffic Crashes Data
+### Dataset 1: Traffic Crashes Data (https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
 The traffic crash data contains all information about the crash, number of injuries in the crash, weather conditions at the time of crash, etc. Note: Our focus in the dataset is towards analysis crashes which result to injuries, hence we are excluding unfatal crashes out of our analysis.
 
-### Dataset 2: Traffic Crashes People
+### Dataset 2: Traffic Crashes People (https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
 The dataset records details of the people who were involved in the above traffic crashes we have earlier analysed. The datasets are threaded together through 'Crash_Record_Id' variable which is a unique identifier for each crash incident. Through this dataset we have some attributes about the people, their demographics, license status and all
 
 ## Objective of the Study
@@ -21,12 +21,6 @@ We are analysing the traffic crashes data at first to understand what variables 
 Roads with no controls devices are more prone to fatal accidents
 Rear end collisions are most frequent occuring type of crash.  West and South bound directions have the most crashes amongs all the categories.
 Analysing the reason for the crash, we found a lot of data is tagged as 'Unable to Determine' as a primary cause of the crash. While, apart from that we see that 'Failing to Yield Right of the Way' is the most common cause of the crash and comprising close to 20% of the all the crashes under study.
-
-
-## DataSource
-https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
-https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
-
 
 
 
